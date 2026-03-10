@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_custom_app"
+version = "0.1.0"
+description = "Custom Frappe app with modern Python packaging"
+authors = [{name = "Sachi", email = "sachi@example.com"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["frappe>=14.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["my_custom_app"]
