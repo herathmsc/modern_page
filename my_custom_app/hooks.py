@@ -1,0 +1,8 @@
+app_name = "my_custom_app"
+app_title = "My Custom App"
+app_publisher = "Sachi"
+app_description = "Custom Frappe app with modern packaging"
+app_icon = "octicon octicon-file-directory"
+app_color = "green"
+app_email = "sachi@example.com"
+app_license = "MIT"
